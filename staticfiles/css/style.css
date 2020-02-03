@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+body {
+    background-color:#F8F8F8!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.2px; 
+    color: #848d96;   
+}
+
+a {
+    color: rgba(71, 190, 199, 0.75);
+}
+
+a:hover {
+    color: #DCDCDC;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}
