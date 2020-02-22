@@ -27,7 +27,7 @@ settings.configure(
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
     ],
 
-    ALLOWED_HOSTS=['127.0.0.1', 'calm-oasis-52851.herokuapp.com',],
+    ALLOWED_HOSTS=['127.0.0.1', '0.0.0.0', 'calm-oasis-52851.herokuapp.com',],
     TEMPLATES=[
         {
             'BACKEND': 'django.template.backends.django.DjangoTemplates',
